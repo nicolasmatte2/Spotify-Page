@@ -1,4 +1,4 @@
-import styled from "Styled-components";
+import styled from "styled-components";
 
 export const Foot = styled.div`
   max-height: 100%;
@@ -117,7 +117,7 @@ export const Foot = styled.div`
     color: gray;
     font-size: 12px;
     align-items: center;
-    span{
+    span {
       margin: 0px 15px 0 auto;
     }
   }
@@ -143,70 +143,70 @@ export const Foot = styled.div`
       text-decoration: none;
     }
   }
-  @media (max-width: 1199px) and (min-width: 992px){
-    .geral-dois{
+  @media (max-width: 1199px) and (min-width: 992px) {
+    .geral-dois {
       width: 970px;
     }
   }
   @media (max-width: 991px) {
-    #abas{
+    #abas {
       display: block;
     }
-    .geral{
+    .geral {
       height: 565px;
       max-height: 100%;
       padding: 50px 0 20px 0;
     }
-    .geral-dois{
+    .geral-dois {
       display: block;
       width: 750px;
       height: 100%;
       max-height: fit-content;
     }
-    #logo{
+    #logo {
       display: block;
       height: fit-content;
-      margin: 0 auto 0 0; ;
-      h1{
+      margin: 0 auto 0 0;
+      h1 {
         font-size: 16px;
         width: fit-content;
       }
     }
-    .empresa{
-        display: inline-block;
-        width: 220px;
-        height: 300px;
-        margin: 0 0;
-        h2{
-          margin: 50px 0 22px 0
-        }
-      }
-    .comunidades{
+    .empresa {
       display: inline-block;
-        width: 220px;
-        height: 300px;
-        max-width: 100%;
-        h2{
-          margin: 50px 0 22px 0
-        }
+      width: 220px;
+      height: 300px;
+      margin: 0 0;
+      h2 {
+        margin: 50px 0 22px 0;
       }
-    .links{
+    }
+    .comunidades {
       display: inline-block;
-        width: 220px;
-        height: 300px;
-        max-width: 100%;
-        h2{
-          margin: 50px 0 22px 0
-        }
+      width: 220px;
+      height: 300px;
+      max-width: 100%;
+      h2 {
+        margin: 50px 0 22px 0;
       }
-      .imagens{
-        width: 100%;
-        display: inline-block;
-        height: fit-content;
-        margin: 90px 15px 15px 15px;
+    }
+    .links {
+      display: inline-block;
+      width: 220px;
+      height: 300px;
+      max-width: 100%;
+      h2 {
+        margin: 50px 0 22px 0;
       }
-      .registrado {
-        width: 720px;
-      }
+    }
+    .imagens {
+      width: 100%;
+      display: inline-block;
+      height: fit-content;
+      margin: 90px 15px 15px 15px;
+    }
+    .registrado {
+      width: 720px;
+    }
   }
 `;
